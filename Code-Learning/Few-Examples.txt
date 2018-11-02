@@ -1,4 +1,4 @@
-Main Example:
+Main Examples of code:
 
 IF ELSEIF  ELSE:
 
@@ -34,8 +34,31 @@ switch (var) {
     break;
 }
 
-------------------------------
+-----------------------------
 DELAY:
 
 ms: the number of milliseconds to pause (unsigned long)
 delay(ms)
+
+-----------------------------
+WHILE:
+
+int x = 0;
+do
+{
+  delay(50);          // wait for sensors to stabilize
+  x = readSensors();  // check the sensors
+} while (x < 100);  
+
+-----------------------------
+FOR:
+for (int i=0; i <= 255; i++){
+   ...
+   delay(10);
+}
+  
+for(int x = 2; x < 100; x = x * 1.5){
+   println(x);
+}
+
+
