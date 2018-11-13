@@ -7,7 +7,8 @@ When using Arduino IDE only, sometimes the Mbot port is not recognized by the PC
 
 -----------------------------
 
-Mblock installation: (based on Scratch) Installation example using Mblock can be found at: https://www.youtube.com/watch?v=u5p5COCcmLQ Link for Mblock installation: http://www.mblock.cc/mblock-5-software/ and then choose Mblock 3 for PC, windows 7 and above
+Mblock installation: (based on Scratch) Installation example using Mblock can be found at: https://www.youtube.com/watch?v=u5p5COCcmLQ Link for Mblock installation: 
+https://www.makeblock.com/software/mblock3/downloadsand then choose Mblock 3 for PC, windows 7 and above
 
 -----------------------------
 
