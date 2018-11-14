@@ -1,5 +1,6 @@
-// this program is coming from
-// github.com/Makeblock-official/mBot/blob/master/mBot-default-program/mBot-default-program.ino
+// this is the default program of the mBot
+// it is coming from
+// github.com/Makeblock-official/mBot/blob/master/mBot-default-program/
 
 
 #include <Servo.h>
