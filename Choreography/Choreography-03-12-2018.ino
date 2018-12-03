@@ -1,7 +1,20 @@
 //Student work for Infrared A,B,C and 3,6 buttons
-//Example of writting in 8,9
+//Example of writting in 8,9 by Michel
 //Robotic Class - Ron Vardit School
 //Final code students made after 6 classes on MBot
+//to be loaded on 9 Mbots and controlled with Infrared remote control
+
+//NOTE: All motors shoud be connected the same way:
+//       left weel connected to M2
+//   --
+//  -------
+//  |     |
+//  -------
+//   --
+//       right weel connected to M2
+
+//03-12-2018 Michel Platnic
+
 
 
 //libraries
@@ -19,7 +32,6 @@ MeDCMotor motor4(M2);
 int motorSpeed = 150;
 int motorSpeen = 100;
 char outDat;
-
 
 void setup(){
     Serial.begin(9600);
@@ -50,8 +62,8 @@ void loop(){
     }
     if(ir.keyPressed(12)){     //"1" pressed on the remote control
         motor3.run(-motorSpeed);
-        motor4.run(motorSpeed);
-        delay(300);
+        motor4.run(motorSpeed);   //this should be transferred to a function
+        delay(300);               //motorSpeed can be changed all the time
         motor3.run(motorSpeed);
         delay(450);
         motor3.run(motorSpeed);
@@ -110,8 +122,8 @@ void loop(){
      }
      if(ir.keyPressed(12)){     //"1" pressed on the remote control
         motor3.run(-motorSpeed);
-        motor4.run(motorSpeed);
-        delay(300);
+        motor4.run(motorSpeed);  //this should be transferred to a function
+        delay(300);               //motorSpeed can be changed all the time
         motor3.run(motorSpeed);
         delay(450);
         motor3.run(motorSpeed);
@@ -148,10 +160,10 @@ void loop(){
         motor4.stop();
         motor3.stop();
      }
-     if(ir.keyPressed(7)){     //"<"  pressed on the remote control
+     if(ir.keyPressed(7)){          //"<"  pressed on the remote control
         motor3.run(-motorSpeed);
-        motor4.run(-motorSpeed);
-        delay(5000);
+        motor4.run(-motorSpeed);   //this should be transferred to a function
+        delay(3000);               //motorSpeed can be changed all the time
         motor3.run(+motorSpeed);
         motor4.run(-motorSpeed);
         delay(2000);
@@ -194,8 +206,8 @@ void loop(){
         buzzer.tone(7);
     }
     if(ir.keyPressed(21)){    //"*"
-        motor3.run(-motorSpeed);
-        delay(300);
+        motor3.run(-motorSpeed);   //this should be transferred to a function
+        delay(300);               //motorSpeed can be changed all the time
         motor3.stop();
         delay(300);
         motor4.run(+motorSpeed);
@@ -384,8 +396,8 @@ void move6(){
 
    
 void move8(){
-  motor3.run(-300);
-  motor4.run(300);
+  motor3.run(-300);     //example of function, not efficient
+  motor4.run(300);      //look at example 9
   delay(200);
   motor3.run(-300);
   motor4.run(-350);
@@ -434,12 +446,12 @@ void move9(){
 
 void moverun(int mot3, int mot4, int runtime, int wait)
 {
-  Serial.println("moveB9");
+  //Serial.println("moveB9");
   motor3.run(mot3);
   motor4.run(mot4);
   delay(runtime);
   motor3.stop();
   motor4.stop();
   delay(wait);
-  Serial.println("moveE9");
+  //Serial.println("moveE9");
 }
