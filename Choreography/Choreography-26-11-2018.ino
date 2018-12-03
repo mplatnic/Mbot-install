@@ -148,7 +148,7 @@ void move8(){
   delay(300);
 }
 
-void move9(){
+void move9(){                                //better way to write
   move9run(300, -300, 500, 10);
   move9run(300, 300, 1500, 200);
   move9run(-300, -300, 700, 10);
@@ -159,12 +159,12 @@ void move9(){
 
 void move9run(int mot3, int mot4, int runtime, int wait)
 {
-  Serial.println("moveB9");
+  //Serial.println("moveB9");                     //for debug
   motor3.run(mot3);
   motor4.run(mot4);
   delay(runtime);
   motor3.stop();
   motor4.stop();
   delay(wait);
-  Serial.println("moveE9");
+  //Serial.println("moveE9");
 }
