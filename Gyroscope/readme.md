@@ -2,5 +2,6 @@ The Me 3-Axis Accelerometer and Gyro Sensor is an ideal module for motion and po
 
 https://www.makeblock.com/project/me-3-axis-accelerometer-and-gyro-sensor
 
-http://learn.makeblock.com/cn/wp-content/uploads/2016/01/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20160203144150.png
-http://learn.makeblock.com/cn/wp-content/uploads/2016/01/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20160203144211.png
+
+<img src="http://learn.makeblock.com/cn/wp-content/uploads/2016/01/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20160203144150.png" width="600">
+<img src="http://learn.makeblock.com/cn/wp-content/uploads/2016/01/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20160203144211.png" width="600">
