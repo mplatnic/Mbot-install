@@ -28,3 +28,7 @@ https://www.youtube.com/watch?v=B4xtsH6pzoM
 
 Dance:
 https://www.youtube.com/watch?v=hauXQQhwbgM
+
+
+## About Robot futur
+http://www.windermeresun.com/2019/07/05/our-future-with-robots/
