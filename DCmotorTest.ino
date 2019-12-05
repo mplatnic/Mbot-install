@@ -20,8 +20,8 @@
 
 #include "MeMCore.h"
 
-MeDCMotor motor3(M1);
-MeDCMotor motor4(M2);
+MeDCMotor motor1(M1);
+MeDCMotor motor2(M2);
 
 uint8_t motorSpeed = 100;
 
@@ -31,16 +31,16 @@ void setup()
 
 void loop()
 {
-  motor3.run(motorSpeed);
-  motor4.run(-motorSpeed);
+  motor1.run(motorSpeed);
+  motor2.run(-motorSpeed);
   delay(2000);
-  motor3.stop();
-  motor4.stop();
+  motor1.stop();
+  motor2.stop();
   delay(100);
-  motor3.run(-motorSpeed);
-  motor4.run(motorSpeed);
+  motor1.run(-motorSpeed);
+  motor2.run(motorSpeed);
   delay(2000);
-  motor3.stop();
-  motor4.stop();
+  motor1.stop();
+  motor2.stop();
   delay(2000);
 }
