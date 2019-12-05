@@ -1,3 +1,10 @@
+# Makeblock Library Installation
+
+    Then download the Mbot library from: https://github.com/Makeblock-official/Makeblock-Libraries Choose to download the Zip version of the file for the green button on the right side. Put the Makeblock-Libraries-master.zip on the desktop
+    Then open the Arduino IDE, from "Sketch" - "Include Library" - "Add .zip Library" select the Makeblock-Libraries-master.zip from the desktop
+    Then connect the Arduino using the USB cable, switch on the board
+    check that from the menu: "Tools" - "Board" is "Arduino-uno" and that port is selected.
+
 # Mbot Choreography
 
 The aim of this class is to create together a choreography of 9 Mbots.
